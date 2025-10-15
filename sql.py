@@ -33,7 +33,7 @@ def delete_user(user_id):
     conn.close()
     
 st.set_page_config (page_title="User Database App", page_icon="")
-st.title("User Management Web App by Mads")
+st.title("User Management Web App by Madelene Ragas")
 menu = ["Home", "Add User", "View Users", "Delete User"]
 choice = st.sidebar.selectbox("Menu", menu)
     
